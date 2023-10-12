@@ -1,5 +1,5 @@
 """
-This is the item class for any item for Sale
+This is the item class for any Item for Sale
 Currently an item will have: 
 - Name (The actual name of the item for sale)
 - Item Number (Some unique value for searching like OEM, Barcode or Model Number, some items may have some of these or all, so perhaps its best to have a value for each)
