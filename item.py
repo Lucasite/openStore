@@ -25,7 +25,7 @@ class Item:
     TODO: Find better name for this function to indicate that it alters stock and 
     TODO: Look into ways to maybe merge sell_items() and return_items()
     """
-    def sell_item(self,sold_stock)
+    def sell_item(self,sold_stock):
         self.stock = self.stock - sold_stock
 
     """
@@ -34,5 +34,5 @@ class Item:
     This function needs an added security of checking the existing transaction to make sure the number is within the bounds of the stock sold. 
     TODO: Return to this function once Sale Tracking is Implemented 
     """
-    def return_items(self, returned_stock)
+    def return_items(self, returned_stock):
         self.stock = self.stock + returned_stock
